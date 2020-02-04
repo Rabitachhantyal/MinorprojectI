@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+.upperbox{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/Bardiyacommunityhtharu5.jpg);
+    background-size: cover;
+}
+/*Styling navigation bar*/
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+nav .logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li
+{
+    padding-left: 15px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px; 
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+ul li a:hover{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+ul li a:active
+{
+    background: rgba(183,53,32, 0.7);
+    color: #fff;
+    border-radius: 6px;
+}
+
+#searchBar{
+    border: 1px solid #000000;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+    width: 25rem;
+    margin-left: 290px ;
+    border-radius: 5px;;
+
+}
+.upperbox button{
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 200px ;
+    width: 10rem;
+    border-radius: 5px;
+    background-color:rgb(183,53,32);
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(183,53,55);
+}
+.infobox
+{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+/*
+.culturebox{
+    height: 50rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+.culturebox img{
+    height: 30rem;
+    width: 100%;
+    filter: blur(5px);
+}
+*/
+.culture h2{
+    margin: 8px;
+    width: 290px;
+    height: 240px;
+    border-radius: 5px;
+    color: #fff;
+    background:rgb(183,53,32);
+    position: relative;
+}
+.culture h2 .text
+{
+    text-align: center;
+    font-size: 3rem;
+}
+a 
+{
+    text-decoration: none;
+}
+.culture .flexcontainer {
+    margin: 10px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.culture .flexcontainer .culturebox
+{
+    position: relative;
+    height: 240px;
+    width: 270px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.culture .flexcontainer .culturebox .imgBox
+{
+    position: relative;
+}
+.culture .flexcontainer .culturebox .imgBox img
+{
+    max-width: 270px;
+    height: 240px;
+    border-radius: 50%;
+    
+}
+.culture .flexcontainer .culturebox .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(143, 135, 130, 0.5);
+    overflow: hidden;
+    width: 270px;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 50%;
+    
+}
+
+.culture .flexcontainer .culturebox:hover .overlay {
+    height: 240px; 
+}
+
+
+.culture .text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.homestaybox h2
+{
+    width: 300px;
+    height: 50vh;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 8px;
+    background:rgb(183,53,32);
+}
+.homestaybox
+{
+    display: flex;
+}
+.homestaybox h2
+{
+    padding:190px 0 0 0;
+    text-align: center;
+    font-size: 3rem;
+    height: 35vh;
+}
+.homestaybox img
+{
+    width: 100%;
+    height: 60vh;
+}
+.testimonials img
+{
+    height: 400px;
+    width: 400px;
+    float: left;
+    padding: 40px;
+
+}
+ .testimonials p
+{
+    padding: 40px;
+    height: 400px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #EDF5F5;
+    margin-top: 20px;
+}
+.addhomestaybox
+{
+   margin-top: 40px;
+   text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.addhomestaybox p
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+}
+.benefits
+{
+    background-color: #EDF5F5;
+}
+h3
+{
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.benefitsbox
+{
+    margin: 80px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+}
+.benefitsbox .col1
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+.benefitsbox .col2
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+.benefitsbox .col3
+{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+.slider .gallery {
+    width:350px;
+    margin: 13.5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.slider .gallery:hover {
+    border: 1px solid #777;
+}
+
+.slider .gallery img {
+    width: 100%;
+    height: 30vh;
+}
+footer
+{
+    margin-top: 400px;
+    background-color: #000;
+    height: 30vh;
+    position: relative;
+}
+footer .text
+{
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 30px 0 0
+}
+footer .foot
+{
+    display: inline-grid;
+    margin:0 40px;
+}
+.foot a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.foot a:hover
+{
+    color:rgb(183,53,32);
+}
+.icons{
+    margin-left: 30px;
+}
+.icons img
+{
+    height: 50px;
+    width: 50px;
+}
+.icons img:hover
+{
+    transform: scale(1.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+nav .logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li
+{
+    padding-left: 15px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px; 
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+ul li a:hover{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.btn:hover
+{
+    background: #494C4D;
+    border-radius: 6px;
+}
+.active:hover
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.active
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.homestaylistbox a {
+   text-decoration: none;
+    color: #000;
+}
+/*for heading*/
+h2{
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.homestaybox
+{
+    height: 250px;
+    width: 45%;
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    margin: 0 0 20px 50px;
+    border-radius: 20px;
+    float: left;
+    width: 45%;
+}
+
+.homestaybox .contentbox
+{
+    
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    
+}
+/*homestays heading*/
+.contentbox h3{
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+/*descroption*/
+.contentbox p
+{
+    font-size: 15px;
+}
+/*image inside image box*/
+.imagebox img
+{
+    width: 355px;
+    height: 250px;
+    padding: 10px;
+    border-radius:8%;
+}
+.contentbox img
+{
+    height: 15px;
+    width: 15px;
+    margin: 10px 10px 0 0;
+}
+/*location inside content box*/
+.contentbox .location{
+    font-size: 10px; 
+    display: inline;
+}
+/*desing favourite icon*/
+.favourites
+{
+   margin: 0 0 0 270px;
+    padding-bottom: 10px;
+}
+.favourites input
+{
+    display: none;
+}
+.favourites label
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.favourites label:before
+{
+    content: "\2661";
+    position: absolute;
+    font-size: 35px;
+    display: inline-block;
+    top: -20px;
+    left: 15px;
+    
+}
+/*for overlapping another heart*/
+.favourites label:after
+{
+    content: "\2661";
+    position: absolute;
+    font-size: 35px;
+    display: inline-block;
+    top: -20px;
+    left: 15px;
+    color: red;
+    opacity: 0;
+    
+}
+/*~ is a selection indicator...makes red after clicking on it*/
+.favourites input:checked ~ label:after
+{
+    opacity: 1;
+}
+/*for hovering effects*/
+.homestaybox:hover 
+{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+}
+.homestaybox:hover h3
+{
+    color: rgb(183,53,32);
+    transition: 0.5s ease;
+}
+/*for load more and load less*/
+#more{
+    display: none;
+}
+#load {
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    width: 10rem;
+    border-radius: 5px;
+    background-color:rgb(183,53,32);
+    color: #fff;
+    margin: 0;
+    margin-left: 40rem
+}
+#load:hover{
+    background-color: rgb(183,53,45);
+}
+footer
+{
+    margin-top: 40px;
+    background-color: #000;
+    height: 30vh;
+    position: relative;
+}
+footer .text
+{
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 30px 0 0
+}
+footer .foot
+{
+    display: inline-grid;
+    margin:0 40px;
+}
+.foot a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.foot a:hover
+{
+    color:rgb(183,53,32);
+}
+.icons{
+    margin-left: 30px;
+}
+.icons img
+{
+    height: 50px;
+    width: 50px;
+}
+.icons img:hover
+{
+    transform: scale(1.25);
+}
+
+
+
+
+

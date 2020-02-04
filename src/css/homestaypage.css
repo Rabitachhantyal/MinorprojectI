@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+nav .logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li
+{
+    padding-left: 15px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px; 
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn:hover
+{
+    background: #494C4D;
+    border-radius: 6px;
+}
+.active:hover
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.active
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+
+.imagebox{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/bandipur-village.jpg);
+  background-size: cover;
+}
+.imagebox .text{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 530px 0 10px 20px; 
+}
+.imagebox img
+{
+    height: 40px;
+    width: 40px;
+    padding: 0 0 10px 20px;
+}
+.imagebox .location
+{
+    float: right;
+    margin-right:960px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.descriptionbox{
+    margin: 10px;
+    padding: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #EBF5F5;
+    
+}
+#more{
+    display: none;
+}
+#mytext{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    width: 10rem;
+    color: rgb(183,53,32);
+}
+#myText:hover{
+   color: rgb(183,53,85);
+}
+.heading
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px 20px;
+}
+
+.galleryimg{
+    background-color:red;
+}
+ .gallery {
+    width:350px;
+    margin: 13.5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 30vh;
+}
+.check
+{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    padding-left: 150px;
+    height: 15vh;
+}
+.controls
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+input,select
+{
+    width: 250px;
+    height: 5vh;
+    cursor: pointer;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+}
+.available
+{
+    border-radius: 10px;
+    width:250px;
+    height:6vh;
+    background-color:rgb(183,53,32);
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+footer
+{
+    background-color: #000;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+footer label
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 30px 0 0;
+    float: right;
+}
+footer .foot
+{
+    display: inline-grid;
+    margin:0 40px;
+}
+footer .foot a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+footer .foot a:hover
+{
+    color:rgb(183,53,32);
+}
+footer .icons{
+    margin-left: 1300px;
+    margin-top: -50px;
+}
+footer .icons img
+{
+    height: 50px;
+    width: 50px;
+}
+footer .icons img:hover
+{
+   transform: scale(1.25); 
+}
+
+
+
+

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+p{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 300px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #000;
+}
+.sidenav {
+  height: 100%;
+  width: 320px;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow-x: hidden;
+  padding: 10px;
+}
+.sidenav .logo{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.btn:hover
+{
+    background: #494C4D;
+    border-radius: 6px;
+}
+.active:hover
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.active
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/host.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

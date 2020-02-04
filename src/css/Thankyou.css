@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+.thankyoubox
+{
+    border: 2px solid rgb(183,53,32);
+    height: 25vh;
+    width: 400px;
+    align-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 100px 500px;
+    text-align: center;
+}

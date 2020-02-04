@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+.formbox{
+    height:570px;
+    width:500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    background:#fff;
+    border: 2px solid rgb(183,53,32);
+    border-radius: 1rem;
+}
+h2{
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: -50px 0 14px 0;
+}
+.formbox label{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+    
+.formbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formbox input[type="text"],[type="number"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 1rem;
+    color: #000;
+}
+.formbox .location{
+    width: 100%;
+    position: relative;
+}
+.formbox .location label
+{
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-top: 7px;
+    display: flex;
+    
+}
+.formbox .location select{
+    padding: 5px;
+    width: 100%;
+    margin: 2px 0 5px 0;
+}
+.formbox .location .location-1{
+    display: flex;
+    
+}
+.formbox .location .location-1 .province{
+    margin-right: 50px;
+    width: 45%;
+}
+.formbox .location .location-1 .zone{
+    width: 49%;
+}
+.formbox .location .location0{
+    display: flex;
+    
+}
+.formbox .location .location0 .district{
+    margin-right: 50px;
+    width: 43%;
+}
+.formbox .ward
+{
+    width: 43%;
+    margin-right: 50px;
+}
+.formbox .location1
+{
+    display: flex;
+    margin-top: -13px
+}
+.formbox .ethnicity select{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0 0px 0;
+}
+.formbox #certificate{
+    margin-top: 10px;
+}
+
+.formbox button
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(183,53,32);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway';
+    margin: 8px 0 5px 0;
+    
+}
+.formbox button:hover{
+    cursor: pointer;
+    color: #000;
+}

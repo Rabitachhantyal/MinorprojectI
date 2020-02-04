@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 60px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+nav .logo
+{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li
+{
+    padding-left: 15px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px; 
+    padding: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+ul li a:hover{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.btn:hover
+{
+    background: #494C4D;
+    border-radius: 6px;
+}
+.active:hover
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+.active
+{
+    background: rgba(183,53,32, 0.7);
+    border-radius: 6px;
+}
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.flexcontainer {
+    margin: 10px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.flexcontainer .culturebox
+{
+    position: relative;
+    height: 300px;
+    width: 355px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+.flexcontainer .culturebox .imgBox
+{
+    position: relative;
+    display: inline-block;
+}
+.flexcontainer .culturebox .imgBox img
+{
+    max-width: 355px;
+    height: 300px;
+    
+}
+.flexcontainer .culturebox:hover .imgBox img{
+    transform: scale(1.2);
+}
+.flexcontainer .culturebox .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(183,53,32, 0.5);
+    overflow: hidden;
+    width: 355px;
+    height: 0;
+    transition: .5s ease;
+}
+.flexcontainer .culturebox:hover .overlay {
+    height: 300px; 
+}
+.text {
+  color: #000;
+  font-size: 3rem;
+  font-weight:bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+footer
+{
+    background-color: #000;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+label
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 30px 0 0;
+    float: right;
+}
+footer .foot
+{
+    display: inline-grid;
+    margin:0 40px;
+}
+footer .foot a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+footer .foot a:hover
+{
+    color:rgb(183,53,32);
+}
+footer .icons{
+    margin-left: 1300px;
+    margin-top: -50px;
+}
+footer .icons img
+{
+    height: 50px;
+    width: 50px;
+}
+footer .icons img:hover
+{
+   transform: scale(1.25); 
+}

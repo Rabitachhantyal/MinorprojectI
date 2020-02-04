@@ -1,0 +1,11 @@
+						Abstract
+
+	The project is to build a web application that allows people to reserve community homestays (whole community homes involved in 
+accomodation). These homestays donot or rarely have web level presence. This has caused people trying to stay and experience these 
+homestays unable to reach to them through web method. They get access only through friends of friends or some other traditional marketing 
+methods like banners, leaflet etc. There is a need for easier access which is fulfilled by RuralStay.
+
+	These homestays primarily focus on their unique cultures rather than other features and facilities. Thus, RuralStay also targets 
+that feature. User can search for homestays by direct search method or through culture's list prevailed in various homestays and book the
+one they find ideal and interesting. Moreover, there is provision for the community hosts to add their homestays and create profile of 
+them to get found easily.

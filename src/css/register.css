@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    font-family: 'Raleway';
+}
+.registrationbox{
+    height:660px;
+    width:600px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    background:#fff;
+    border: 2px solid rgb(183,53,32);
+    border-radius: 1rem;
+    
+}
+.registrationicon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 50%;
+    top: -45px;
+    margin-left: 230px;
+    background: #fff;
+}
+h1{
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+    
+.registrationbox label{
+    font-weight: bold;
+    font-size: 1.2rem;    
+}
+    
+.registrationbox input{
+    width: 100%;
+    margin-bottom: 15px;
+   }
+.registrationbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 1rem;
+    color: #000;
+}
+.registrationbox #msg1
+{
+    margin-bottom: -10px;
+}
+/*
+.registrationbox input[type="radio"]
+{
+    margin-left: -16.5rem;
+    vertical-align: baseline;
+}
+.registrationbox label[for=user]{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-indent: -15.5rem;
+}
+*/
+.registrationbox button
+{
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(183,53,32);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway';
+    
+}
+.registrationbox button:hover
+{
+    color: #000;
+    cursor: pointer;
+    
+}
+.registrationbox a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    line-height: 20px;
+    
+}
+.registrationbox a:hover{
+    color: rgb(183,53,32);
+}
+.already{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+.popup {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.popup .formclass
+{
+    height:750px;
+    width:600px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 30px 30px;
+    background:#fff;
+    border: 2px solid #eb341b;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+.formclass h1
+{
+    margin-bottom: 15px;
+}
+.formclass label
+{
+    font-weight: bold;
+    font-size: 1.2rem
+}
+.formclass input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formclass input[type="text"], input[type="password"], input[type="tel"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 1rem;
+    color: #000;
+
+}
+.formclass input[type="file"]
+{
+    font-size: 1rem;
+    margin-top: 12px;
+}
+.formclass textarea
+{
+    font-size: 1.2rem;
+    margin: 15px 0 15px 0;
+ 
+}
+.popup input[type="reset"]
+{
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #eb341b;
+    border-radius: 25px;
+    text-align: center;
+}
+.popup input[type="reset"]:hover
+{
+    color: #000;
+    cursor: pointer;
+}
+.formclass button
+{
+    width: 100%;;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #eb341b;
+    border-radius: 25px;
+    text-align: center;
+}
+.formclass button:hover
+{
+    color: #000;
+    cursor: pointer;
+}
+.formclass .close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(42deg);
+    cursor: pointer;
+}
+*/
+
+
+
+
+
