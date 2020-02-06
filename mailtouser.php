@@ -5,11 +5,10 @@ require "src/includes/connection.php";
 //$name;
 //$contact;
 
-<<<<<<< HEAD
+
  $last_id = $_SESSION['res_id'];  
 
-=======
->>>>>>> fe07024759be55a14d19caf237a0b7a11ceb44e2
+
             //session_start();
 
 /*$sql0 ="select * from reservation";
