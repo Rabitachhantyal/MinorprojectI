@@ -4,7 +4,11 @@ require "src/includes/connection.php";
 //$emailUsers;
 //$name;
 //$contact;
+<<<<<<< HEAD
  $last_id= $_SESSION['res_id'];  
+=======
+ $last_id = $_SESSION['res_id'];  
+>>>>>>> 020153af6ca6223083a9d60a61adcfa8c43b2852
             //session_start();
 
 /*$sql0 ="select * from reservation";
