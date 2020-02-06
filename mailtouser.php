@@ -5,7 +5,7 @@ require "src/includes/connection.php";
 //$name;
 //$contact;
 <<<<<<< HEAD
- $last_id= $_SESSION['res_id'];  
+ //$last_id= $_SESSION['res_id'];  
 =======
  $last_id = $_SESSION['res_id'];  
 >>>>>>> 020153af6ca6223083a9d60a61adcfa8c43b2852
