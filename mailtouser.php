@@ -4,7 +4,7 @@ require "src/includes/connection.php";
 //$emailUsers;
 //$name;
 //$contact;
- //$last_id=48;  
+ $last_id = $_SESSION['res_id'];  
             //session_start();
 
 $sql0 ="select * from reservation";
