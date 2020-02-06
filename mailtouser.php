@@ -4,14 +4,14 @@ require "src/includes/connection.php";
 //$emailUsers;
 //$name;
 //$contact;
- //$last_id=48;  
+ $last_id= $_SESSION['res_id'];  
             //session_start();
 
-$sql0 ="select * from reservation";
+/*$sql0 ="select * from reservation";
 $result = mysqli_query($conn,$sql0);
 $row0 = mysqli_fetch_array($result);
 $last_id = $row0['reservation_id'];
-echo "$last_id";
+echo "$last_id"; */
 
 
 
